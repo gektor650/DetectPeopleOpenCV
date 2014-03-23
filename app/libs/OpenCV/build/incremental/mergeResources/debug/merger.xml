@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/gektor650/work/TestOfDetection/app/libs/OpenCV/res" >
+            <file
+                path="/home/gektor650/work/TestOfDetection/app/libs/OpenCV/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="CameraBridgeViewBase" >
+                    <attr
+                        name="show_fps"
+                        format="boolean" />
+                    <attr
+                        name="camera_id"
+                        format="integer" >
+                        <enum
+                            name="any"
+                            value="-1" />
+                        <enum
+                            name="back"
+                            value="99" />
+                        <enum
+                            name="front"
+                            value="98" />
+                    </attr>
+                </declare-styleable>
+            </file>
+        </source>
+        <source path="/home/gektor650/work/TestOfDetection/app/libs/OpenCV/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/gektor650/work/TestOfDetection/app/libs/OpenCV/src/debug/res" />
+    </dataSet>
+
+</merger>
